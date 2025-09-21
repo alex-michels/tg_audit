@@ -1,0 +1,31 @@
+# --- Python cache & build ---
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
+
+# --- Virtual envs ---
+.venv/
+venv/
+env/
+
+# --- Editors / OS junk ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Telethon session files (безопасно игнорировать все) ---
+*.session
+*.session-journal
+# (и на всякий случай явно тот, что просили)
+audit.session
+
+# --- Project outputs ---
+/out/
+
+# --- Logs ---
+*.log
